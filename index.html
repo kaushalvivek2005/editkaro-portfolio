@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in | Video Editing & Social Media Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Editkaro<span>.in</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h1>We Create <span>Viral</span> Content</h1>
+    <p>Video editing & social media marketing that gets you noticed.</p>
+    <a href="#portfolio" class="cta-btn">See Our Work</a>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="portfolio" id="portfolio">
+    <h2>Our Work</h2>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="short-form">Short Form</button>
+      <button class="filter-btn" data-filter="long-form">Long Form</button>
+      <button class="filter-btn" data-filter="gaming">Gaming</button>
+      <button class="filter-btn" data-filter="football">Football</button>
+      <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+      <button class="filter-btn" data-filter="documentary">Documentary</button>
+      <button class="filter-btn" data-filter="anime">Anime</button>
+      <button class="filter-btn" data-filter="ads">Ads</button>
+    </div>
+
+    <!-- CARDS GRID -->
+    <div class="portfolio-grid">
+      <div class="card" data-category="gaming" data-video="dP1ZtdzMbBY">
+        <img src="assets/images/gaming.jpg" alt="Gaming Edit">
+        <div class="card-info">
+            
+          <h3>Valorant Highlight Reel</h3>
+          <p>Gaming</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="football" data-video="LxnilbLr2nQ">
+        <img src="assets/images/football.jpg" alt="Football Edit">
+        <div class="card-info">
+          <h3>Match Day Recap</h3>
+          <p>Football</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="short-form" data-video="zAcHUEQbNMw">
+        <img src="assets/images/short.jpg" alt="Short Form">
+        <div class="card-info">
+          <h3>Instagram Reel Edit</h3>
+          <p>Short Form</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="long-form" data-video="OGtdUBXVL6M">
+        <img src="assets/images/long.jpg" alt="Long Form Video">
+        <div class="card-info">
+            <h3>Behind the Scenes Vlog</h3>
+            <p>Long Form</p>
+        </div>
+      </div>
+
+
+      <div class="card" data-category="anime" data-video="titbhr67Rh0">
+        <img src="assets/images/anime.jpg" alt="Anime Edit">
+        <div class="card-info">
+          <h3>AMV Compilation</h3>
+          <p>Anime</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="ecommerce" data-video="igTVqtlrLxA">
+        <img src="assets/images/ecommerce.jpg" alt="eCommerce Ad">
+        <div class="card-info">
+          <h3>Product Launch Ad</h3>
+          <p>eCommerce</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="documentary" data-video="gJntKcGKsB4">
+        <img src="assets/images/doc.jpg" alt="Documentary Style">
+        <div class="card-info">
+          <h3>Travel Documentary</h3>
+          <p>Documentary</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="ads" data-video="PKeCspuQmCQ">
+        <img src="assets/images/ads.jpg" alt="Ad Campaign">
+        <div class="card-info">
+            <h3>Brand Commercial Edit</h3>
+            <p>Ads</p>
+        </div>
+      </div>
+      <!-- Aur cards copy-paste karke bana sakte ho, category badalte rehna -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Editkaro.in</h2>
+   <p>Editkaro.in is a creative video editing and social media marketing 
+   agency, helping brands and creators turn raw footage into 
+   scroll-stopping content across platforms.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-links">
+      <a href="mailto:hello@editkaro.in">Email</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- VIDEO MODAL -->
+  <div class="modal" id="videoModal">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <div class="modal-content">
+      <iframe id="modalVideo" width="800" height="450" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Editkaro.in — All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<script src="script.js"></script>
+</html>
