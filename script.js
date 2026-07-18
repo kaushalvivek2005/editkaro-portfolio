@@ -44,10 +44,9 @@ const modal = document.getElementById('videoModal');
 const modalVideo = document.getElementById('modalVideo');
 const closeModalBtn = document.getElementById('closeModal');
 
-// Har card pe apna video ID daalna — data-video attribute use karenge
 cards.forEach(card => {
   card.addEventListener('click', () => {
-    const videoId = card.dataset.video; // e.g. "dQw4w9WgXcQ"
+    const videoId = card.dataset.video; 
     if (videoId) {
       modalVideo.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
       modal.classList.add('active');
@@ -58,14 +57,12 @@ cards.forEach(card => {
 // Close button click
 closeModalBtn.addEventListener('click', closeModal);
 
-// Modal ke bahar (background) click karne pe bhi close ho
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     closeModal();
   }
 });
 
-// Escape key pe bhi close ho
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     closeModal();
@@ -74,7 +71,7 @@ document.addEventListener('keydown', (e) => {
 
 function closeModal() {
   modal.classList.remove('active');
-  modalVideo.src = ''; // video stop karne ke liye src empty
+  modalVideo.src = ''; 
 }
 
 
