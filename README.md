@@ -184,8 +184,6 @@ The portfolio supports dynamic filtering using JavaScript. Users can instantly b
 
 🏫 BIT Sindri
 
-💼 Web Development Intern (VaultofCodes)
-
 GitHub:
 https://github.com/kaushalvivek2005
 
