@@ -1,4 +1,14 @@
 // ================================
+// 0. PAGE LOADER
+// ================================
+window.addEventListener('load', () => {
+  const loader = document.getElementById('pageLoader');
+  setTimeout(() => {
+    loader.classList.add('fade-out');
+  }, 1000); // 1 second loader
+});
+
+// ================================
 // 1. CATEGORY FILTER LOGIC
 // ================================
 const filterBtns = document.querySelectorAll('.filter-btn');

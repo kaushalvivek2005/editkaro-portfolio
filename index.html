@@ -8,6 +8,11 @@
 </head>
 <body>
 
+  <!-- LOADER -->
+  <div class="loader" id="pageLoader">
+    <div class="loader-logo">Editkaro<span>.in</span></div>
+  </div>
+
   <!-- NAVBAR -->
   <nav class="navbar">
     <div class="logo">Editkaro<span>.in</span></div>
@@ -35,7 +40,8 @@
       <button class="filter-btn" data-filter="long-form">Long Form</button>
       <button class="filter-btn" data-filter="gaming">Gaming</button>
       <button class="filter-btn" data-filter="football">Football</button>
-      <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+      <button class="filter-btn" data-filter="ecommerce">ECommerce</button>
+      <button class="filter-btn" data-filter="education">Education</button>
       <button class="filter-btn" data-filter="documentary">Documentary</button>
       <button class="filter-btn" data-filter="anime">Anime</button>
       <button class="filter-btn" data-filter="ads">Ads</button>
@@ -44,16 +50,29 @@
     <!-- CARDS GRID -->
     <div class="portfolio-grid">
       <div class="card" data-category="gaming" data-video="dP1ZtdzMbBY">
+      <div class="thumb-wrapper"> 
         <img src="assets/images/gaming.jpg" alt="Gaming Edit">
-        <div class="card-info">
-            
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+        <div class="card-info"> 
           <h3>Valorant Highlight Reel</h3>
           <p>Gaming</p>
         </div>
       </div>
 
       <div class="card" data-category="football" data-video="LxnilbLr2nQ">
+      <div class="thumb-wrapper">
         <img src="assets/images/football.jpg" alt="Football Edit">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
           <h3>Match Day Recap</h3>
           <p>Football</p>
@@ -61,7 +80,14 @@
       </div>
 
       <div class="card" data-category="short-form" data-video="zAcHUEQbNMw">
+      <div class="thumb-wrapper">
         <img src="assets/images/short.jpg" alt="Short Form">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
           <h3>Instagram Reel Edit</h3>
           <p>Short Form</p>
@@ -69,7 +95,14 @@
       </div>
 
       <div class="card" data-category="long-form" data-video="OGtdUBXVL6M">
+      <div class="thumb-wrapper">
         <img src="assets/images/long.jpg" alt="Long Form Video">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
             <h3>Behind the Scenes Vlog</h3>
             <p>Long Form</p>
@@ -78,15 +111,44 @@
 
 
       <div class="card" data-category="anime" data-video="titbhr67Rh0">
+      <div class="thumb-wrapper">
         <img src="assets/images/anime.jpg" alt="Anime Edit">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
           <h3>AMV Compilation</h3>
           <p>Anime</p>
         </div>
       </div>
 
+      <div class="card" data-category="education" data-video="sscX432bMZo">
+      <div class="thumb-wrapper">
+        <img src="assets/images/education.jpg" alt="Documentary Style">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+        <div class="card-info">
+          <h3>Javascript crash-course</h3>
+          <p>education</p>
+        </div>
+      </div>
+
       <div class="card" data-category="ecommerce" data-video="igTVqtlrLxA">
+      <div class="thumb-wrapper">
         <img src="assets/images/ecommerce.jpg" alt="eCommerce Ad">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
           <h3>Product Launch Ad</h3>
           <p>eCommerce</p>
@@ -94,7 +156,14 @@
       </div>
 
       <div class="card" data-category="documentary" data-video="gJntKcGKsB4">
+      <div class="thumb-wrapper">
         <img src="assets/images/doc.jpg" alt="Documentary Style">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
           <h3>Travel Documentary</h3>
           <p>Documentary</p>
@@ -102,13 +171,19 @@
       </div>
 
       <div class="card" data-category="ads" data-video="PKeCspuQmCQ">
+      <div class="thumb-wrapper">
         <img src="assets/images/ads.jpg" alt="Ad Campaign">
+        <div class="play-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
         <div class="card-info">
             <h3>Brand Commercial Edit</h3>
             <p>Ads</p>
         </div>
       </div>
-      <!-- Aur cards copy-paste karke bana sakte ho, category badalte rehna -->
     </div>
   </section>
 
@@ -116,8 +191,10 @@
   <section class="about" id="about">
     <h2>About Editkaro.in</h2>
    <p>Editkaro.in is a creative video editing and social media marketing 
-   agency, helping brands and creators turn raw footage into 
-   scroll-stopping content across platforms.</p>
+    agency specializing in high-quality content creation for brands, 
+    businesses, creators, educators, and influencers. From short-form reels 
+    to long-form documentaries, we transform ideas into engaging visual 
+    stories that captivate audiences across multiple platforms.</p>
   </section>
 
   <!-- CONTACT -->
