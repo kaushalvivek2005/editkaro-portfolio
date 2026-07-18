@@ -2,7 +2,7 @@
 
 A modern, responsive, and interactive portfolio website built for **Editkaro.in**, a video editing and social media marketing agency. This project showcases different categories of video editing work using embedded YouTube videos, dynamic filtering, and a clean user interface.
 
-🌐 **Live Demo:** https://your-live-demo-link.com
+🌐 **Live Demo:** https://editkaro-portfolio-silk.vercel.app/
 
 📂 **GitHub Repository:** https://github.com/kaushalvivek2005/editkaro-portfolio
 
@@ -126,8 +126,6 @@ Open **index.html** in your preferred web browser or use the **Live Server** ext
 
 The project can be deployed on any static hosting platform such as:
 
-- GitHub Pages
-- Netlify
 - Vercel
 
 ---
