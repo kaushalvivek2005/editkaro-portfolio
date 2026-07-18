@@ -398,7 +398,7 @@ footer {
 
 /* ===== RESPONSIVE ===== */
 
-/* ----- TABLET (768px aur neeche) ----- */
+/* ----- TABLET ----- */
 @media (max-width: 768px) {
   .navbar {
     padding: 14px 5%;
@@ -426,7 +426,6 @@ footer {
     font-size: 1.8rem;
   }
 
-  /* Filter buttons horizontally scrollable instead of wrapping messily */
   .filters {
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -462,9 +461,9 @@ footer {
   }
 }
 
-/* ----- MOBILE (480px aur neeche) ----- */
+/* ----- MOBILE ----- */
 @media (max-width: 480px) {
-  /* Navbar: logo + hamburger style stacking */
+ 
   .navbar {
     flex-direction: column;
     gap: 10px;
@@ -546,7 +545,7 @@ footer {
   }
 }
 
-/* ----- VERY SMALL MOBILE (360px aur neeche) ----- */
+/* ----- VERY SMALL MOBILE ----- */
 @media (max-width: 360px) {
   .hero h1 {
     font-size: 1.6rem;
