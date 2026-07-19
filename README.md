@@ -12,7 +12,7 @@ A modern, responsive, and interactive portfolio website built for **Editkaro.in*
 
 This project was developed as part of the **VaultofCodes Web Development Internship**.
 
-The objective was to design and develop a responsive portfolio website using **HTML**, **CSS**, and **Vanilla JavaScript**. The website showcases different categories of edited videos with smooth animations, interactive filtering, and embedded YouTube video previews.
+The objective was to design and develop a responsive portfolio website using **HTML**, **CSS**, and ** JavaScript**. The website showcases different categories of edited videos with smooth animations, interactive filtering, and embedded YouTube video previews.
 
 ---
 
@@ -50,6 +50,7 @@ editkaro-portfolio/
 ├── README.md
 │
 └── assets/
+    ├── screenshots/
     └── images/
 ```
 
